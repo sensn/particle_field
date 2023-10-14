@@ -7,7 +7,7 @@ jobs:
   build:
     name: Build Web
     env:
-      my_secret: ${{secrets.commit_secret}}
+      my_secret: ${{secrets.Commit_secret}}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -18,7 +18,7 @@ jobs:
       - run: flutter pub get
       - run: flutter build web --release
       - run: |
-          cd build/web
+          cd example/build/web
           git init
           # type configurations: your user.email and user.name followed lines 
           # git config --global user.email your_email 
