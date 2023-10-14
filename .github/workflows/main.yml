@@ -27,7 +27,7 @@ jobs:
           git config --global user.name sensn
           git status
           # change this remote url for examle your remote url is https://github.com/onatcipli/particle_field.git then the following:
-          git remote add origin https://${{secrets.Commit_secret}}@github.com/sensn/flutter_web.git
+          git remote add origin https://${{secrets.Commit_secret}}@github.com/sensn/particle_field.git
           git checkout -b gh-pages
           git add --all
           git commit -m "update"
