@@ -1,7 +1,7 @@
 Particle Field
 ================================================================================
 
-A Flutter Widget for adding high performance custom particle effects to your UI.
+ Flutter Widget for adding high performance custom particle effects to your UI.
 
 ![Simple Example](https://raw.githubusercontent.com/gskinner/particle_field/assets/readme_example.gif)
 
